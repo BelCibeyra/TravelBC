@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+    <title>TravelBC - Contacto</title>
+    <link rel="icon" href="Imagenes/bolsa-de-viaje.png">
+    <!----Pegar FontAwesome-->
+  </head>
+  <body>
+      <header>
+          <nav>
+              <!--Navegation bar-->
+              <!--Navegation bar-->
+              <div class="container">
+                <div class="row">
+                  <button class="nav-toggle" aria-label="abrir navegacion">
+                    <span class="hamburger"></span>
+                  </button>
+                <a href="index.html" class="logo">
+                  <img src="Imagenes/viajar.png" alt="logo vuelta al mundo" />
+                </a>
+                <nav class="nav">
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item">
+                        <a class="nav__link" href="Index.html">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href=Latinoamerica.html>Latinoamerica</a>
+                      </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="Europa.html">Europa</a> 
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href=Oceanía.html>Oceanía</a>                      
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="Asia.html">Asia</a>
+                      </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="Contacto.html">Contacto</a>
+                   </li>
+              </ul>
+            </nav>
+            </div>
+            </div>
+        </header>
+    <br />
+<!--Aquí comienza el formulario-->
+    <h1>Contacto</h1>
+    <br />
+    <div class=formcase>
+    <form class="form">
+       <fieldset>
+          <LEgend id="negrita">Mi formulario</LEgend>
+
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" Placeholder="escriba su nombre" id="nombre" required/>
+
+          <br />
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" placeholder="escriba su apellido" id="apellido" required />
+
+          <br />
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" Placeholder="escriba su Correo electrónico" id="email" required/>
+
+          <br />
+          <label for="Contraseña">Contraseña:</label>
+          <input type="password" name="apellido" id="apellido" required />
+          <br />
+          <br />
+          <div>
+          Sexo:
+          <br />
+          Hombre
+          <input type="radio" name="Sexo" value="hombre">
+          Mujer
+          <input type="radio" name="Sexo" value="mujer">
+          <br />
+          <br />
+        </div>
+          <div>Acepta los terminos y condiciones</div>
+
+          <input type="checkbox" name="acepta" value="1">
+          <br />
+          <br />
+          <label for="">Talles</label>
+          <select name="talles" id="talles">
+              <option value="L">Large</option>              
+              <option value="M">Medium</option>              
+              <option value="S">Small</option>    
+          </select>     
+            <br />
+            <br />
+            <label for="mensaje">Mensaje</label>
+            <br />
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <br />
+            <button type="submit">Enviar formulario</button>
+            <button type="reset">Borrar formulario</button>
+       </fieldset>
+
+    </form>
+  </div>
+  <div>
+    <div>
+      <h3 class="preferred">Destinos Preferidos</h3>
+      </div>
+      </section>
+      <div class="row">
+        <div class="col">
+          <div class="download__logo-box">
+            <a href="Latinoamerica.html" target="blank"
+              ><img
+                src="Imagenes/america-del-sur.png"
+                alt="Latinoamerica"
+            /></a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="download__logo-box">
+          <a href="Europa.html" target="blank"
+              ><img
+                src="Imagenes/europa.png"
+                alt="Europa"
+            /></a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="download__logo-box">
+            <a
+              href="Asia.html"
+              target="blank"
+              ><img
+                src="Imagenes/asia.png"
+                alt="Asia"
+            /></a>
+          </div>
+        </div>
+      </div>
+  </div>
+    <footer>
+      <br />
+        <h3 class="footer1">Buscanos en las redes</h3>
+        <br />
+        <a href="https://www.linkedin.com/" target="blank">LinkedIn</a>
+        <br />
+        <br />
+        <h3>Ⓒ Belen Cibeyra | 2022</h3>
+    </footer>
+    <script src="js/main.js"></script>
+    <br />
+</body>
+</html>
